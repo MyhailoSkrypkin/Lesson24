@@ -50,7 +50,7 @@ mapElement.addEventListener("click", (event) => {
     const distanceElement = document.getElementById("distance");
     distanceElement.textContent = distanceHint;
 
-    if (distance < 5) {
+    if (distance < 7) {
         alert ("Ти виграв!");
     }
 });
